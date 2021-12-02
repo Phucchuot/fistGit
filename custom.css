@@ -1,0 +1,79 @@
+/* //reset padding margin */
+.red {
+  border: 1px red solid;
+}
+
+.green {
+  border: 1px green solid;
+}
+
+.body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.banner {
+  background: url(./banner.jpg) center center no-repeat;
+  height: 500px;
+  padding: 20px;
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .about,
+.banner .sign-in {
+  padding: 7px 15px;
+  margin-top: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.banner .about .sign-in,
+.banner .sign-in .sign-in {
+  margin-left: 20px;
+  margin-right: 60px;
+  border: 2px green solid;
+  border-radius: 20px;
+}
+.banner .logo {
+  background: url(./logo.png) center center no-repeat;
+  height: 100px;
+  margin-top: 40px;
+}
+.banner .text {
+  text-align: center;
+  margin-top: 30px;
+}
+.banner .btn-start-now {
+  text-align: center;
+}
+.banner .btn-start-now button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: 1px olivedrab solid;
+  border-radius: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.banner .content-center .left,
+.banner .content-center .center,
+.banner .content-center .right {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.banner .content-center .left span,
+.banner .content-center .center span,
+.banner .content-center .right span {
+  display: block;
+  color: red;
+  font-size: 30px;
+  padding-top: 5px;
+}
+.banner img {
+  height: 30px;
+  width: 30px;
+}
